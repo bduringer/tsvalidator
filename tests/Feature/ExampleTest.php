@@ -1,5 +1,5 @@
 <?php
-use Ts\Tsvalidator\Validator;
+use Tecsa\Tsvalidator\Validator;
 
 test('checarData', function () {
     $check = new Validator();

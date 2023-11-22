@@ -1,6 +1,6 @@
 <?php
 
-namespace Ts\Tsvalidator;
+namespace Tecsa\Tsvalidator;
 use DateTime;
 
 class Validator
