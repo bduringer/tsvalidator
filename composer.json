@@ -1,0 +1,24 @@
+{
+    "name": "ts/tsvalidator",
+    "description": "package for input validation",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Ts\\Tsvalidator\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Bernardo Nummer",
+            "email": "bernardo.duringer@tecsagroup.com.br"
+        }
+    ],
+    "require-dev": {
+        "pestphp/pest": "^2.24"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
