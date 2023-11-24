@@ -18,7 +18,7 @@ Em seu projeto, carregue as dependencias do composer, instancie o Validator e ut
     $validator = new Validator();
 
     if($validator->isEmail('example@gmail.com')){
-        echo 'É um email válido";
+        echo 'É um email válido';
     } else {
         echo 'Não é um email válido';
     };
